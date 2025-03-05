@@ -72,7 +72,7 @@ body{
     font-weight: bolder;
     font-size: 30px;
 }
-.threedivs{
+.fourdivs{
     display: flex;
     justify-content: space-around;
 }
@@ -80,21 +80,25 @@ body{
     height: 400px;
     width: 300px;
     border: 1px solid blue;
+    border-radius: 7px;
 }
 .itemtwo{
 
     height: 400px;
     width: 300px;
     border: 1px solid blue;
+    border-radius: 7px;
 }
 .itemthree{
 
     height: 400px;
     width: 300px;
     border: 1px solid blue;
+    border-radius: 7px;
 }
 .itemfour{
     height: 400px;
     width: 300px;
     border: 1px solid blue;
+    border-radius: 7px;
 }
