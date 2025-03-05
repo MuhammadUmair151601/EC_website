@@ -23,4 +23,11 @@ body{
     height: 200px;
     width: 1270px;
     margin-top: 0px;
+    text-align: center;
+    
+}
+.bannerwritting{
+    font-size: 50px;
+    color: rgb(11, 103, 169);
+    font-weight: bolder;
 }
