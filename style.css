@@ -1,5 +1,6 @@
 body{
-    
+    margin-top: 0px;
+    display: flex;
 }
 .items{ 
     display: flex;
@@ -15,4 +16,11 @@ body{
     padding-right: 50px;
     font-size: 25px;
     font-weight: bolder;
+    margin-top: 30px;
+}
+.Banner{
+    background-image: url(./banner.avif);
+    height: 200px;
+    width: 1270px;
+    margin-top: 0px;
 }
