@@ -35,7 +35,7 @@ body{
     font-size: 50px;
     color: rgb(11, 103, 169);
     font-weight: bolder;
-    margin-top: -15px;
+    margin-top: 40px;
 }
 .twodivs{
     display: flex;
@@ -71,4 +71,30 @@ body{
     color: black;
     font-weight: bolder;
     font-size: 30px;
+}
+.threedivs{
+    display: flex;
+    justify-content: space-around;
+}
+.itemone{
+    height: 400px;
+    width: 300px;
+    border: 1px solid blue;
+}
+.itemtwo{
+
+    height: 400px;
+    width: 300px;
+    border: 1px solid blue;
+}
+.itemthree{
+
+    height: 400px;
+    width: 300px;
+    border: 1px solid blue;
+}
+.itemfour{
+    height: 400px;
+    width: 300px;
+    border: 1px solid blue;
 }
