@@ -1,15 +1,19 @@
 body{
-    margin-top: 0px;
+    margin-top: 0px 0px 0px 0px;
     display: flex;
+}
+.container{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
 }
 .items{ 
     display: flex;
     height: 40px;
-    width: 100%;
+    width: 95%;
     justify-content: center;
     padding-right: 20px;
     background-color: yellow;
-    margin-top: 0px;
+    margin-top: -2px;
 }
 .items a{
     color: rgb(47, 107, 51);
@@ -21,7 +25,7 @@ body{
 .Banner{
     background-image: url(./banner.avif);
     height: 200px;
-    width: 1270px;
+    width: 1255px;
     margin-top: 0px;
     text-align: center;
     
@@ -30,4 +34,19 @@ body{
     font-size: 50px;
     color: rgb(11, 103, 169);
     font-weight: bolder;
+    margin-top: -15px;
+}
+.offers{
+    width: 500px;
+    height: 400px;
+    background-image: url(./decoration.avif);
+
+}
+.poffers
+{
+    font-size: 50px;
+    color: rgb(242, 242, 242);
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-left: 30px;
 }
