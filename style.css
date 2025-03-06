@@ -12,7 +12,7 @@ body {
     height: 40px;
     width: 100%;
     justify-content: center;
-    background-color: yellow;
+    background-color: rgb(219, 82, 14);
     position: fixed;
     align-items: center;
     top: 0; /* Ensure navbar stays at the top */
@@ -29,7 +29,7 @@ body {
 }
 
 .items a {
-    color: rgb(47, 107, 51);
+    color: rgb(244, 247, 244);
     margin: 30px;
     font-size: 25px;
     font-weight: bolder;
@@ -145,5 +145,27 @@ body {
     border-radius: 5px;
     margin-left: 30px;
 }
-
+.buybtn:hover{
+    background-color: rgb(241, 146, 98);
+    cursor: pointer;
+}
+.cartbtn:hover{
+    background-color:rgb(192, 184, 184);
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    background-color: rgb(167, 169, 180);
+    gap: 25px;
+}
+ .policy, .help, .social{
+    width: 400px;
+    height: 300px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: white;
+    line-height: 1.9;
+ }
 
